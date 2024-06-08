@@ -70,7 +70,7 @@ export function LandingPage() {
                 alt="Hero"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square"
                 height="550"
-                src="/placeholder.svg"
+                src="/img1.png"
                 width="550"
               />
             </div>
@@ -107,10 +107,12 @@ export function LandingPage() {
                   </li>
                   <li>
                     <div className="grid gap-1">
-                      <h3 className="text-xl font-bold">Set Budgets</h3>
+                      <h3 className="text-xl font-bold">
+                        Track your Transactions
+                      </h3>
                       <p className="text-gray-400">
-                        Create budgets for different expense categories and
-                        track your progress.
+                        View a detailed transaction history with features like
+                        filter by category, type and export options.
                       </p>
                     </div>
                   </li>
@@ -128,8 +130,8 @@ export function LandingPage() {
               <img
                 alt="Features"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
-                height="310"
-                src="/placeholder.svg"
+                height="300"
+                src="/img2.png"
                 width="550"
               />
             </div>
