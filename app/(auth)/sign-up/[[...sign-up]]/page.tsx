@@ -13,20 +13,33 @@ export default function Page() {
           />
         </aside>
 
-        <main className="flex items-center justify-center px-8 py-8 sm:px-12 lg:col-span-7 lg:px-16 lg:py-12 xl:col-span-6">
+        <main className="flex items-center justify-center px-8 py-5 sm:px-12 lg:col-span-7 lg:px-16 lg:py-8 xl:col-span-6">
           <div className="max-w-xl lg:max-w-3xl">
             <a href="#">
               <span className="sr-only">Home</span>
               <img className="h-8 sm:h-10" src="/money.png"></img>
             </a>
 
-            <h1 className="mt-6 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">
+            <h1 className="mt-2 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">
               Track Rupee <span className="text-green-500">₹</span>
             </h1>
 
             <p className="mb-4 leading-relaxed text-gray-500">
               Your Paisa , Your Power
             </p>
+
+            <div className="my-5 leading-relaxed text-gray-500">
+              You can use the following dummy credentials on the{" "}
+              <span className="underline underline-offset-2">Sign In</span>{" "}
+              page:
+              <br />
+              Email:{" "}
+              <span className="underline underline-offset-2">
+                dummy@gmail.com
+              </span>
+              <br />
+              Password: <span className="text-red-500">dummy123</span>
+            </div>
             <SignUp path="/sign-up" />
           </div>
         </main>
