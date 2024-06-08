@@ -42,7 +42,7 @@ function MobileNavbar() {
               href="/dashboard"
             >
               <img src="/money.png" className="h-6 w-6 text-gray-50" />
-              <span className="text-lg px-2">Track Rupee</span>
+              <span className="text-lg px-2 text-orange-400">Track Rupee</span>
             </Link>
             <div className="flex flex-col gap-1 pt-4">
               {items.map((item) => (
@@ -59,7 +59,7 @@ function MobileNavbar() {
         <div className="flex h-[80px] min-h-[60px] items-center gap-x-4">
           <Link className="flex items-center justify-center" href="/dashboard">
             <img src="/money.png" className="h-6 w-6 text-gray-50" />
-            <span className="text-lg px-2">Track Rupee</span>
+            <span className="text-lg px-2 text-orange-400">Track Rupee</span>
           </Link>
         </div>
         <div className="flex items-center gap-2">
@@ -78,7 +78,7 @@ function DesktopNavbar() {
         <div className="flex h-[80px] min-h-[60px] items-center gap-x-4">
           <Link className="flex items-center justify-center" href="/dashboard">
             <img src="/money.png" className="h-6 w-6 text-gray-50" />
-            <span className="text-lg px-2">Track Rupee</span>
+            <span className="text-lg px-2 text-orange-400">Track Rupee</span>
           </Link>
           <div className="flex h-full mt-10">
             {items.map((item) => (

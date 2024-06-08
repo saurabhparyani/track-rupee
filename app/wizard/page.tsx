@@ -48,9 +48,9 @@ async function page() {
         <Link href="/dashboard">I&apos;m done. Take me to the dashboard!</Link>
       </Button>
       <div className="mt-8">
-        <Link className="flex items-center justify-center" href="/wizard">
+        <Link className="flex items-center justify-center" href="/dashboard">
           <img src="/money.png" className="h-6 w-6 text-gray-50" />
-          <span className="text-lg px-2">Track Rupee</span>
+          <span className="text-lg px-2 text-orange-400">Track Rupee</span>
         </Link>
       </div>
     </div>

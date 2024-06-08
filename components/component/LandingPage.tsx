@@ -18,7 +18,7 @@ export function LandingPage() {
       <header className="px-4 lg:px-6 h-14 flex items-center bg-gray-900">
         <Link className="flex items-center justify-center" href="/dashboard">
           <img src="/money.png" className="h-6 w-6 text-gray-50" />
-          <span className="text-lg px-2">Track Rupee</span>
+          <span className="text-lg px-2 text-orange-400">Track Rupee</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Button
