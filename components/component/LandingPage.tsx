@@ -61,8 +61,11 @@ export function LandingPage() {
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                  <Button className="w-full min-[400px]:w-auto p-8 text-xl bg-gray-800 hover:bg-gray-700 text-gray-50">
-                    Track your money now!
+                  <Button
+                    asChild
+                    className="w-full min-[400px]:w-auto p-8 text-xl bg-gray-800 hover:bg-gray-700 text-gray-50"
+                  >
+                    <Link href="/dashboard">Track your money now!</Link>
                   </Button>
                 </div>
               </div>
